@@ -40,13 +40,6 @@ resource "proxmox_virtual_environment_vm" "ubuntu_vm" {
     bridge = "vmbr0"
   }
 
-  # network {
-  #   model  = "virtio"
-  #   bridge = "vmbr0"
-  #   ip     = "10.0.3.${count.index + 10}/24"  # Change the IP range according to your network
-  #   gw     = "10.0.3.1"  # Change this to your gateway IP
-  # }
-
   cpu {
       cores = 2
       type  = "x86-64-v2-AES"
