@@ -7,3 +7,5 @@
    4. `proxmox_api_key_secret` - Proxmox API key secret
 2. Run `tofu plan`
 3. Run `tofu apply`
+
+*Shoutout to https://culturelinux.github.io/doc/iac/opentofu/ for the jumpstart.*
